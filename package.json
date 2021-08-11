@@ -1,0 +1,17 @@
+{
+  "name": "install-and-code",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "packageManager": "yarn@3.0.0",
+  "workspaces": [
+    "packages/*",
+    "services/*",
+    "clients/*"
+  ],
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
