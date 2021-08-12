@@ -10,8 +10,24 @@
     "clients/*"
   ],
   "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@preconstruct/cli": "^2.1.0",
     "eslint": "^7.32.0",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
+  },
+  "preconstruct": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "postinstall": "preconstruct dev"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7",
+    "@types/babel__preset-env": "^7"
   }
 }

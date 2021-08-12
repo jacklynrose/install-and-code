@@ -1,0 +1,6 @@
+{
+    "name": "@packages/random-number",
+    "version": "0.0.1",
+    "main": "dist/packages-random-number.cjs.js",
+    "module": "dist/packages-random-number.esm.js"
+}

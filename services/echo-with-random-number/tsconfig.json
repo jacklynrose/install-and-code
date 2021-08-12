@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.json",
+    "include": ["src/*.ts"],
+    "references": [
+        { "path": "../../packages/random-number" }
+    ],
+    "compilerOptions": {
+        "noEmit": true
+    }
+}

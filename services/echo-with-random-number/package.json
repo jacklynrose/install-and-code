@@ -1,0 +1,9 @@
+{
+    "name": "@services/echo-with-random-number",
+    "dependencies": {
+        "@packages/random-number": "workspace:*"
+    },
+    "devDependencies": {
+        "@types/node": "^16.6.0"
+    }
+}

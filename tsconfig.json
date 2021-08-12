@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "baseUrl": "./",
+        "resolveJsonModule": true,
+        "target": "es5",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "paths": {
+            "@packages/*": ["packages/*"],
+            "@services/*": ["services/*"],
+            "@clients/*": ["clients/*"]
+        },
+        "noEmit": true,
+        "importsNotUsedAsValues": "error",
+        "removeComments": true,
+        "allowJs": false,
+        // "checkJS": true, // uncomment if you allow js
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "lib": ["dom", "DOM.Iterable", "esnext"],
+        "incremental": true,
+        "noErrorTruncation": true,
+        "composite": true,
+        "declaration": true
+    },
+    "references": [
+        { "path": "./packages/random-number" },
+        { "path": "./services/echo-with-random-number" }
+    ]
+}
